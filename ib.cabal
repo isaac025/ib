@@ -8,9 +8,11 @@ maintainer:         isaac.lopez@upr.edu
 category:           Web
 build-type:         Simple
 
-executable lb
+executable ib
     ghc-options:      -Wall
     main-is:          Main.hs
+    default-extensions:
+        ImportQualifiedPost
     build-depends:    base ^>=4.17.2.0
                     , network
     hs-source-dirs:   src
